@@ -65,6 +65,6 @@ public class Admin extends LoggedUser {
      * main menu screen for admin account
      */
     public void menu(){
-        System.out.println("1) Print Requests\n2) Approve a Playground\n3) Sign out");
+        System.out.println("1) Print Requests\n2) Approve a Playground\n3) Search for an account by name\n4) Sign out");
     }
 }

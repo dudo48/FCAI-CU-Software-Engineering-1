@@ -163,6 +163,6 @@ public class Player extends LoggedUser {
      * Main menu screen for the player
      */
     public void menu(){
-        System.out.println("1) Create team\n2) View team invites\n3) Accept a team invitation\n4) Book a playground\n5) View all playgrounds\n6) Search playgrounds by location\n7) Check wallet\n8) Sign out");
+        System.out.println("1) Create team\n2) View team invites\n3) Accept a team invitation\n4) Book a playground\n5) View all playgrounds\n6) Search playgrounds by location\n7) Check wallet\n8) Search for an account by name\n9) Sign out");
     }
 }

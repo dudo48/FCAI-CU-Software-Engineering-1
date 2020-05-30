@@ -2,7 +2,7 @@ package AbstractObjects;
 
 /**
  * A class to generate unique IDs for different categories in the program
- * has methods resembling the different categories. each method returns a unique ID
+ * has methods resembling the different categories. each method returns a unique ID for that category.
  */
 
 public class IDGenerator {

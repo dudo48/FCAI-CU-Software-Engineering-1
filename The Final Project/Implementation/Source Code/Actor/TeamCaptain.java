@@ -62,6 +62,6 @@ public class TeamCaptain extends Player {
      */
     @Override
     public void menu() {
-        System.out.println("1) Invite player to team\n2) Book a playground\n3) View all playgrounds\n4) Search playgrounds by location\n5) Check wallet\n6) Sign out");
+        System.out.println("1) Invite player to team\n2) Book a playground\n3) View all playgrounds\n4) Search playgrounds by location\n5) Check wallet\n6) Search for an account by name\n7) Sign out");
     }
 }

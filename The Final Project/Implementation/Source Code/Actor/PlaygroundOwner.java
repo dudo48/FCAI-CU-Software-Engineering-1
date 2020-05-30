@@ -98,6 +98,6 @@ public class PlaygroundOwner extends LoggedUser {
      * Main menu for the playground owner account
      */
     public void menu(){
-        System.out.println("1) Add playground\n2) View owned playgrounds\n3) Check wallet\n4) Sign out");
+        System.out.println("1) Add playground\n2) View owned playgrounds\n3) Check wallet\n4) Search for an account by name\n5) Sign out");
     }
 }

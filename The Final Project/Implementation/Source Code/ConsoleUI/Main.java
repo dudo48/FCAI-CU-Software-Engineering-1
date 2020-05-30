@@ -77,7 +77,7 @@ public class Main {
                         TeamCaptain captain_account = new TeamCaptain(account);
                         while(true) {
                             captain_account.menu();
-                            choice = makeChoice(1, 6);
+                            choice = makeChoice(1, 7);
                             if(choice == 1){
                                 captain_account.invite();
                             }
@@ -93,6 +93,9 @@ public class Main {
                             else if(choice == 5){
                                 System.out.println("Your current balance is: " + account.getWallet().getMoney());
                             }
+                            else if(choice == 6){
+                                account.searchUserInfo();
+                            }
                             else{
                                 System.out.println("You've signed out.");
                                 break;
@@ -105,7 +108,7 @@ public class Main {
                         System.out.println("Logged in successfully.");
                         while(true){
                             account.menu();
-                            choice = makeChoice(1, 8);
+                            choice = makeChoice(1, 9);
                             if(choice == 1){
                                 account.createTeam();
                                 System.out.println("Please log in again to update your account.");
@@ -129,6 +132,9 @@ public class Main {
                             else if(choice == 7){
                                 System.out.println("Your current balance is: " + account.getWallet().getMoney());
                             }
+                            else if(choice == 8){
+                                account.searchUserInfo();
+                            }
                             else{
                                 System.out.println("You've signed out.");
                                 break;
@@ -150,7 +156,7 @@ public class Main {
                         System.out.println("Logged in successfully.");
                         while(true) {
                             account.menu();
-                            choice = makeChoice(1, 4);
+                            choice = makeChoice(1, 5);
                             if(choice == 1){
                                 account.addPlayground();
                             }
@@ -159,6 +165,9 @@ public class Main {
                             }
                             else if(choice == 3) {
                                 System.out.println("Your current balance is: " + account.getWallet().getMoney());
+                            }
+                            else if(choice == 4){
+                                account.searchUserInfo();
                             }
                             else{
                                 System.out.println("You've signed out.");
@@ -179,13 +188,16 @@ public class Main {
                         System.out.println("Logged in successfully.");
                         while(true) {
                             account.menu();
-                            choice = makeChoice(1, 3);
+                            choice = makeChoice(1, 4);
 
                             if(choice == 1){
                                 account.printRequests();
                             }
                             else if(choice == 2){
                                 account.accept();
+                            }
+                            else if(choice == 3){
+                                account.searchUserInfo();
                             }
                             else{
                                 System.out.println("You've signed out.");
